@@ -1,6 +1,3 @@
-def gangnam_style
-  puts "You are about to learn to dance Gangnam Style!"
-end
 
 
 def proper_stance
@@ -41,5 +38,17 @@ def lasso
   puts "Raight yuor right forearm so that it points straight up, and whip it in small circles to the beat of the song, as if you were a cowboy holding a rope lasso."
 end
 
+def bust_a_move
+  puts "Be cool!"
+  puts "Be snazzy!"
+end
 
-puts "#{gangnam_style} First, you need to know the proper stance: #{proper_stance} Now start your footwork: #{base_footwork} Now do #{bob_the_reins} while simultaneously #{skip_step_left+skip_step_right} eight times. Now #{lasso} while simultaneously #{skip_step_left+skip_step_right} eight times."
+def gangnam_style
+  proper_stance
+  bust_a_move
+  base_footwork
+  bob_the_reins + (skip_step_left+skip_step_right)8
+  lasso + (skip_step_left+skip_step_right)8
+end
+
+gangnam_style
