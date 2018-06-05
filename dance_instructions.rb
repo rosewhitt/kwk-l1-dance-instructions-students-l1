@@ -14,16 +14,14 @@ def base_footwork
   puts "Finish with a small skip-step backwards."
 end
 
-def skip_step_left
+def skip_step
   puts "Lower your left foot to the ground."
   puts "Bounce your left foot back up slightly, kicking it a few inches back."
   puts "Left, Right, Left, Left"
-end
-
-def skip_step_right
   puts "Lower your right foot to the ground."
   puts "Bounce your right foot back up slightly, kicking it a few inches back."
   puts "Right, Left, Right, Right"
+  puts "Repeat seven more times!"
 end
 
 def bob_the_reins
@@ -47,8 +45,8 @@ def gangnam_style
   proper_stance
   bust_a_move
   base_footwork
-  bob_the_reins + (skip_step_left+skip_step_right)8
-  lasso + (skip_step_left+skip_step_right)8
+  bob_the_reins + skip_step
+  lasso + skip_step
 end
 
 gangnam_style
