@@ -43,4 +43,3 @@ end
 
 
 puts "#{gangnam_style} First, you need to know the proper stance: #{proper_stance} Now start your footwork: #{base_footwork} Now do #{bob_the_reins} while simultaneously #{skip_step_left+skip_step_right} eight times. Now #{lasso} while simultaneously #{skip_step_left+skip_step_right} eight times."
-
